@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.glasses {
+    background-image: url(../assests/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.glasses .title {
+    background-color: #000;
+    position: relative;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 40px 0;
+    opacity: 0.7;
+}
+
+
+.glasses .title h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.glasses .container .model-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.glasses .container .model-container .left-model,
+.glasses .container .model-container .right-model {
+    background-image: url(../assests/img/model.jpg);
+    height: 585px;
+    width: 480px;
+    position: relative;
+}
+
+.glasses .container .model-container .left-model img,
+.glasses .container .model-container .right-model img {
+    width: 258px;
+    position: absolute;
+    top: 23%;
+    left: 23%;
+}
+
+.glasses .container .model-container .left-model .infor,
+.glasses .container .model-container .right-model .infor {
+    position: absolute;
+    bottom: 0;
+    background-color: #dca746;
+    padding: 50px 20px;
+    padding-top: 10px;
+    opacity: 0.7;
+}
+
+.glasses .container .model-container .left-model .infor h3,
+.glasses .container .model-container .right-model .infor h3 {
+    color: #191980;
+    font-size: 35px;
+}
+
+
+.glasses .container .model-container .left-model .infor p,
+.glasses .container .model-container .right-model .infor p {
+    color: #fff;
+    font-size: 22px;
+}
+
+.glasses .container .glasses-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.glasses .container .glasses-container img {
+    width: calc(100%/6);
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 130px;
+}
+
